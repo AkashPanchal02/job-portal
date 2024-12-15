@@ -8,8 +8,8 @@ import JobCard from '@/components/JobCard'
 import { getCompanies } from '@/api/apiCompanies'
 import { Input } from '@/components/ui/Input'
 import { Button } from '@/components/ui/Button'
-// import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue, SelectGroup } from "@/components/ui/select"
-// import { State } from 'country-state-city'
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue, SelectGroup } from "@/components/ui/select"
+import { State } from 'country-state-city'
 
 
 function JobListing() {
@@ -68,7 +68,7 @@ function JobListing() {
         <Button variant="blue" className="h-full sm:w-28" type="submit"> Search </Button>
       </form>
 
-      {/* <div className="flex flex-col sm:flex-row gap-3">
+      <div className="flex flex-col sm:flex-row gap-3">
         <Select value={location} onValueChange={(value) => setLocation(value)}>
           <SelectTrigger>
             <SelectValue placeholder="Filter by Location" />
@@ -97,7 +97,7 @@ function JobListing() {
           </SelectContent>
         </Select>
         <Button variant="destructive" className="sm:w-1/2" onClick={clearFilters}> Clear Filters </Button>
-      </div> */}
+      </div>
 
       {loadingJobs && (
         <BarLoader className='mt-4' width={"100%"} color='#36d7b7'/>
