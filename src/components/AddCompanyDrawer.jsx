@@ -2,7 +2,7 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import React, { useEffect } from 'react'
 import { useForm } from 'react-hook-form'
 import { z } from 'zod'
-import { Drawer, DrawerClose, DrawerContent, DrawerFooter, DrawerHeader, DrawerTitle, DrawerTrigger } from "@/components/ui/drawer"
+import { Drawer, DrawerClose, DrawerContent, DrawerFooter, DrawerHeader, DrawerTitle, DrawerTrigger } from "@/components/ui/Drawer"
 import { Button } from '@/components/ui/Button'
 import { Input } from '@/components/ui/Input'
 import useFetch from '@/hooks/useFetch'

@@ -8,7 +8,7 @@ import JobCard from '@/components/JobCard'
 import { getCompanies } from '@/api/apiCompanies'
 import { Input } from '@/components/ui/Input'
 import { Button } from '@/components/ui/Button'
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue, SelectGroup } from "@/components/ui/select"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue, SelectGroup } from "@/components/ui/Select"
 import { State } from 'country-state-city'
 
 

@@ -6,7 +6,7 @@ import useFetch from '@/hooks/useFetch'
 import { BarLoader } from 'react-spinners'
 import { BriefcaseBusiness, DoorOpen, DoorClosed, MapPinIcon } from 'lucide-react'
 import MDEditor from '@uiw/react-md-editor'
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/Select"
 import ApplyJobDrawer from '@/components/ApplyJobDrawer'
 import ApplicationCard from '@/components/ApplicationCard'
 

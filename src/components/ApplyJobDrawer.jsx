@@ -1,8 +1,8 @@
 import React from 'react'
-import { Drawer, DrawerClose, DrawerContent, DrawerDescription, DrawerFooter, DrawerHeader, DrawerTitle, DrawerTrigger } from "@/components/ui/drawer"
+import { Drawer, DrawerClose, DrawerContent, DrawerDescription, DrawerFooter, DrawerHeader, DrawerTitle, DrawerTrigger } from "@/components/ui/Drawer"
 import { Button } from '@/components/ui/Button'
 import { Input } from './ui/Input'
-import { Label } from "@/components/ui/label"
+import { Label } from "@/components/ui/Label"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { z } from 'zod'
 import { useForm } from 'react-hook-form'
@@ -10,8 +10,7 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { Controller } from 'react-hook-form'
 import useFetch from '@/hooks/useFetch'
 import { applyToJob } from '@/api/apiApplications'
-import { BarLoader } from 'react-spinners'
-// import Container from 'postcss/lib/container'  
+import { BarLoader } from 'react-spinners' 
 
 const schema = z.object({
   experience: z.number().min(1, { message: "Experience must be atleast 1 year"}).int(),

@@ -5,7 +5,7 @@ import { Boxes, BriefcaseBusiness, Download, School } from 'lucide-react'
 import useFetch from '@/hooks/useFetch'
 import { updateApplicationStatus } from '@/api/apiApplications'
 import { BarLoader } from 'react-spinners'
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/Select"
 
 
 function ApplicationCard({ application, isCandidate=false}) {

@@ -1,6 +1,6 @@
 import { useUser } from '@clerk/clerk-react'
 import React, { useEffect, useState } from 'react'
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/Card"
 import {Link } from 'react-router-dom'
 import { MapPinIcon, Trash2Icon, Heart } from 'lucide-react'
 import { Button } from './ui/Button'
