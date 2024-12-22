@@ -32,7 +32,7 @@ function JobPage() {
     return <BarLoader className='mb-4' width={"100%"} color='#36d7b7'/>
   }
   return (
-    <div className='px-10 sm:px-14 flex flex-col gap-8 mt-5'>
+    <div className=' flex flex-col gap-8 mt-5'>
       <div className='flex flex-col-reverse gap-6 md:flex-row justify-between items-center'>
         <h1 className='gradient-title font-extrabold pb-3 text-4xl sm:text-6xl'> {job?.title} </h1>
         <img src={job?.company?.logo_url} className='h-12' alt={job?.title} />

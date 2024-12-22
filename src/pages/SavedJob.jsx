@@ -19,7 +19,7 @@ function SavedJobs() {
   }
 
   return (
-    <div className='px-10 sm:px-14'>
+    <div className=''>
         <h1 className='gradient-title font-extrabold text-4xl sm:text-7xl text-center pb-8'> Saved Jobs </h1>
         {loadingSavedJobs === false && (
         <div className='mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-4'>

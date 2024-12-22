@@ -26,7 +26,7 @@ function LandingPage() {
 
         {/* carasouel */}
 
-      <Carousel className="w-full py-10 px-10 sm:px-14" 
+      <Carousel className="w-full py-10" 
         plugins={ [Autoplay({ delay: 2000 })] } 
       >
         <CarouselContent className="flex gap-5 sm:gap-20 items-center">
@@ -47,7 +47,7 @@ function LandingPage() {
         <img src="/banner.jpeg" alt="" className='w-full'/>
       </div>
 
-      <section className='grid grid-cols-1 md:grid-cols-2 gap-4 px-10 sm:px-14'>
+      <section className='grid grid-cols-1 md:grid-cols-2 gap-4 '>
         <Card>
           <CardHeader>
             <CardTitle>For Job Seekers </CardTitle>
@@ -65,7 +65,7 @@ function LandingPage() {
 
       {/* Accordian */}
 
-      <Accordion type="single" className='px-10 sm:px-14 background' collapsible>
+      <Accordion type="single" className=' background' collapsible>
         {
           faqs.map((faq, index) => {
             return (

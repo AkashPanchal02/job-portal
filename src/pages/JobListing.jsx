@@ -52,7 +52,7 @@ function JobListing() {
   }
   
   return (
-    <div className='px-10 sm:px-14'>
+    <div className=''>
       <h1 className='gradient-title font-extrabold text-4xl sm:text-7xl text-center pb-8 mt-5'> 
         Latest Jobs 
       </h1>
